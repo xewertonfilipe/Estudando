@@ -1,22 +1,22 @@
 /** Planos **/
 .planos {
-  background: $cor-auxiliar; 
+  background: $cor-auxiliar;
 }
 
 .planos h2 {
-  color: $cor-branca; 
+  color: $cor-branca;
 }
 
 .plano {
   background: white;
-  width: 18em;
+  width: multiplica-pela-fonte-padrao(18.73);
   display: inline-block;
   margin: 1em 0 0 1.4em;
-  padding-bottom: 2em; 
+  padding-bottom: 2em;
 }
 
 .plano:hover {
-  background: #dedede; 
+  background: #dedede;
 }
 
 .plano h3 {
@@ -26,13 +26,13 @@
   text-align: center;
   height: 2em;
   padding-top: .6em;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .plano div {
   text-align: center;
   color: $cor-padrao;
-  font-size: 2.75em; 
+  font-size: 2.75em;
 }
 
 .itens-plano {
@@ -62,21 +62,13 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
-  @extend %sombra-padrao;
-  margin-left: 2em; 
+  @include border-radius(10px);
+  @include box-shadow(black 2px 2px 5px);
+  margin-left: 2em;
 }
 
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+  @include all-sprite-sprites;
+.sprite-icone-check, .sprite-icone-x {
   width: 18px;
-  height: 18px; 
-}
-
-.icone-check {
-  background-position: -5px -5px; 
-}
-
-.icone-x {
-  background-position: -33px -5px; 
+  height: 18px;
 }
