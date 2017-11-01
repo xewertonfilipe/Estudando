@@ -1,7 +1,7 @@
 /** Blog **/
 .blog {
   display: block;
-  position: relative; 
+  position: relative;
 }
 
 .blog::after {
@@ -14,22 +14,26 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
 }
 
 .post-destaque,
 .posts-antigos {
   width: 48%;
   display: inline-block;
-  vertical-align: top; 
+  vertical-align: top;
+
+  @media #{$mq-mobile} {
+    width: auto;
+  }
 }
 
 .post-destaque {
-  margin-right: 2em; 
+  margin-right: 2em;
 }
 
 .post-destaque img {
-  width: 100%; 
+  width: 100%;
 }
 
 .posts-antigos a {
@@ -38,9 +42,9 @@
   background: url(../imagens/icone-relogio.png) left center no-repeat;
   padding-left: 2.5em;
   height: 1.7em;
-  display: block; 
+  display: block;
 }
 
 .posts-antigos a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
