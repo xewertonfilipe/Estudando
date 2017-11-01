@@ -1,12 +1,16 @@
 /** Contato **/
 .contato input,
 .contato button {
-  display: block; 
+  display: block;
 }
 
 form {
   margin: 0 auto;
-  width: 50%; 
+  width: 50%;
+
+  @media #{$mq-mobile} {
+    width:auto;
+  }
 }
 
 .contato input,
@@ -15,7 +19,7 @@ textarea {
   margin-bottom: .8em;
   padding: 4px 8px;
   @include borda-arredondada;
-  border: 2px solid #ccc; 
+  border: 2px solid #ccc;
 }
 
 .contato button {
@@ -26,6 +30,6 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada;
-  @extend %sombra-padrao;
+    @include border-radius(10px);
+  @include box-shadow(black 2px 2px 5px);
 }
