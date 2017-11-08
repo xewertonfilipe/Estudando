@@ -4,6 +4,9 @@ body {
     font-size: 120%;
     line-height: 1.5;
 }
+main a {
+    color: #851944;
+}
 strong {
     font-weight: bold;
 }
@@ -13,7 +16,7 @@ em {
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-main h1 {
+.titulo-principal {
     font-size: 60px;
     text-align: center;
     background-color: #851944;
@@ -21,11 +24,12 @@ main h1 {
     padding: 25px;
     margin: 0px;
     border-bottom: 10px solid black;
+    text-transform: uppercase;
 }
 h2{
     font-size: 30px;   
 }
-main div {
+.conteudo-principal {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -38,42 +42,64 @@ p {
 blockquote, aside, footer {
     padding: 20px;
 }
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     margin: 20px 40px;
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box;
 }
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
 }
-nav a {
+.navegacao-site a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
-main a {
-    color: #851944;
-}
-aside h1 {
+.navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
-aside a {
+.navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
-.icones-sociais li {
+.icones-redes-sociais li {
     display: inline-block;
+}
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+}
+.github {
+    background-image: url(github.png);
+}
+.twitter {
+    background-image: url(twitter.png);
+}
+.likedin {
+    background-image: url(linkedin.png);
 }
 #rodape-pagina {
     background: #000;
     color: #F2FFFC;
     padding: 20px;
 }
-article {
+.artigos {
     padding-bottom: 30px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
+}
+.leia-mais {
+    font-size: 24px;
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    text-align: center;
+    background: #E6E7E8;
 }
