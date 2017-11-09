@@ -4,6 +4,10 @@ body {
     font-size: 120%;
     line-height: 1.5;
 }
+main {
+    float: left;
+    width: 85%;
+}
 main a {
     color: #851944;
 }
@@ -26,8 +30,9 @@ h1, h2 {
     border-bottom: 10px solid black;
     text-transform: uppercase;
 }
-h2{
-    font-size: 30px;   
+.subtitulo-texto{
+    font-size: 30px;
+    clear: both;
 }
 .conteudo-principal {
     width: 720px;
@@ -48,6 +53,16 @@ blockquote, aside, footer {
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box;
+}
+.navegacao-site, .minha-foto {
+    float: right;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+.navegacao-site {
+    width: 13%;
 }
 .navegacao-site {
     background-color: #3C1D3D;
@@ -85,10 +100,11 @@ blockquote, aside, footer {
 .likedin {
     background-image: url(linkedin.png);
 }
-#rodape-pagina {
+.rodape-pagina {
     background: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 .artigos {
     padding-bottom: 30px;
@@ -102,4 +118,15 @@ blockquote, aside, footer {
     display: block;
     text-align: center;
     background: #E6E7E8;
+}
+.fiat {
+    float: right;
+}
+.petrobras {
+    float: left;
+}
+cite {
+    font-style: italic;
+    float: right;
+    display: block;
 }
