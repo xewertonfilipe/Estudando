@@ -1,0 +1,107 @@
+body {
+    font-family: "Crimson Text", "Time New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+main {
+    float: left;
+    width: 85%;
+}
+main a {
+    color: #851944;
+}
+li {
+    display: inline-block;
+}
+h1, p {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+p {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.titulo-principal {
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    border-bottom: 10px solid black;
+}
+.conteudo-principal {
+    width: 720px;
+    margin: 0 auto;
+}
+.portfolio li {
+    width: 45%;
+    display: inline-block;
+    border: 8px solid black;
+    background-color: #FAFFFC;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.portfolio img {
+    width: 100%;
+}
+.navegacao-site, .minha-foto {
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navegacao-site {
+    float: right;
+    position: relative;
+    top: 310px;
+    background-color: #3C1D3D;
+    width: 15%;
+    text-align: center;
+    color: #F2FFFC;
+}
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+.navegacao-site li {
+    display: block;
+}
+.icones-redes-sociais li {
+    display: inline-block;
+}
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+}
+.github {
+    background-image: url(../img/github.png)
+}
+.twitter {
+    background-image: url(../img/twitter.png)
+}
+.likedin {
+    background-image: url(../img/linkedin.png)
+}
+aside, footer {
+    padding: 20px;
+}
+.pagina-rodape {
+    background-color: #000;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
