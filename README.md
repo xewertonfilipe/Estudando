@@ -1,3 +1,1 @@
-# Cursos-Alura
-
-- JavaScript
+https://xewertonfilipe.github.io/JavaScript-RegisterTable/
